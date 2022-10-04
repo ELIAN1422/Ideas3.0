@@ -1,0 +1,77 @@
+body{
+    background-image: url("fondo.jpg");
+
+}
+.Titulo{
+    text-decoration: underline red;
+    border-style: double;
+    border-radius: 9px;
+    background-color: antiquewhite;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%
+     }
+     to {
+        margin-left: 0%;
+        width: 100%
+    }
+}
+.Texto{
+    border-style: double;
+    border-radius: 6px;
+    width: 430x;
+    background-color: antiquewhite;
+    
+}
+.Texto1{
+    border-style: double;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 10px;
+    
+}
+.Texto2{
+    border-style: double;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 10px;
+}
+.imagen1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 75px;
+    -webkit-transform: rotate(-90);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-270deg);
+}
+.imagen2{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+}
+.imagen3{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 75px;
+   
+}
+.imagen4{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+}
+
+
+
